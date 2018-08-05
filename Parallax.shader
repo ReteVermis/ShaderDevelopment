@@ -3,7 +3,6 @@ Shader "ShaderDev/ParallaxMap"
 {
 	Properties
 	{
-		_Color ("MainColor", Color) = (1,1,1,1)
 		_MainTex("Main Texture", 2D) = "white"{}
 		_ParallaxOffset ("Parallax offset", Range (0,1)) = 0.1
 		_AlphaSteps ("Alpha steps", Range (0,100)) = 1
